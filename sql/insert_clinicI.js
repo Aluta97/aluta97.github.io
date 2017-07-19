@@ -7,7 +7,7 @@ var conn = mysql.createConnection({
     // your connection details here
 });
 
-var sql = "INSERT INTO clinicA (vaccines, Quantity) VALUES ?";
+var sql = "INSERT INTO clinicI (vaccines, Quantity) VALUES ?";
 
 var values =[
   ['NEVIRAPINE', 7],

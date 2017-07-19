@@ -10,9 +10,9 @@ var conn = mysql.createConnection({
 var sql = "INSERT INTO clinicJ (vaccines, Quantity) VALUES ?";
 
 var values =[
-  ['NEVIRAPINE', 10],
-  ['STAVUDINE', 12],
-  ['ZIDOTABINE', 1]
+  ['NEVIRAPINE', 50],
+  ['STAVUDINE', 23],
+  ['ZIDOTABINE', 6]
 ];
 
 conn.query(sql, [values], function(err) {
